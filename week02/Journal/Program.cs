@@ -58,3 +58,8 @@ class Program
     }
  }
 }
+
+/*
+Creativity: I exceeded the requirements by adding more prompts
+and automatically recording the current date for each entry.
+*/
