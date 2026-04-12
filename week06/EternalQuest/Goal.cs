@@ -15,8 +15,12 @@ public class Goal
         Console.WriteLine($"You have completed the goal: {Name} and earned {Points} points!");
     }
 
-    internal ReadOnlySpan<char> GetDisplayString()
+    public virtual string GetDisplayString()
     {
-        throw new NotImplementedException();
+        return $"{Name} ({Description})";
+    }
+    public virtual bool IsComplete()
+    {
+        return false;
     }
 }
